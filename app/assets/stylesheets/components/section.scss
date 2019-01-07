@@ -1,0 +1,7 @@
+.section {
+  @each $size, $value in $content-spacers {
+  &--#{$size} {
+    padding: $value 0;
+  }
+}
+}
